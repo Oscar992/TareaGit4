@@ -4,16 +4,16 @@ public class Ejercicio4 {
         for (var i = 0; i < n; i++) {
             System.out.print(i + 1 + " ");
         }
-        System.out.print("\n");
+        System.out.printf("\n");
     }
 
     public static void imprimirPares(int n) {
         for (var i = 0; i < n; i++) {
             if ((i + 1) % 2 == 0) {
-                System.out.print(i + 1 + " ");
+                System.out.printf(i + 1 + " ");
             }
         }
-        System.out.print("\n");
+        System.out.printf("\n");
     }
 
     public static void imprimirImpares(int n) {
@@ -22,6 +22,6 @@ public class Ejercicio4 {
                 System.out.print(i + 1 + " ");
             }
         }
-        System.out.print("\n");
+        System.out.printf("\n");
     }
 }
